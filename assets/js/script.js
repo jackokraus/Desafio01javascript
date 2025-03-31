@@ -12,9 +12,9 @@ function plus1(){
     }
     function minus1(){
         minus = document.querySelector('.cantidad')
-        cuenta = Number(shuma.innerHTML)
-        cuenta = cuenta - 1
-        shuma.innerHTML = cuenta
-        totar = document.querySelector('.valor-total')
-        totar.innerHTML= precio * cuenta
+        cuent = Number(minus.innerHTML)
+        cuent = cuent - 1
+        minus.innerHTML = cuent
+        tota  = document.querySelector('.valor-total')
+        tota.innerHTML= precio * cuent
     }
